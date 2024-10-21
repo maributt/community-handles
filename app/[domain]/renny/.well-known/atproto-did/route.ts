@@ -9,7 +9,7 @@ export const GET = async (
   const { did } = await prisma.user.findFirstOrThrow({
     where: { handle: params.handle, domain: { name: params.domain } },
   })
-  return new Response("did:plc:3pgry4sv53vhukivczsjj3kb", {
+  return new Response("did:plc:wlbus3of36wmygiwdiyiq5ar", {
     headers: {
       "content-type": "text/plain",
     },
