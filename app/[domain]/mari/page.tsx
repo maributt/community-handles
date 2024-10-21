@@ -4,3 +4,5 @@ const RedirectPage = () => {
   redirect('https://bsky.app/profile/mari.ismywhole.life', RedirectType.replace);
   return null;
 };
+
+export default RedirectPage;
