@@ -40,12 +40,7 @@ export default async function CommunityPage({ params }: Props) {
           community
         </h1>
         <p className="max-w-[500px] text-lg text-muted-foreground sm:text-xl">
-          Want to join the {count} members of the {domain} community? Get your
-          own{" "}
-          <Link href="/" className="underline">
-            {domain} handle
-          </Link>
-          .
+          Want to join the wives of the {domain} community? sorry u cant...
         </p>
 
         <LoadMore
