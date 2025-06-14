@@ -15,8 +15,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const domain = params.domain
 
   return {
-    title: `The ${domain} Community`,
-    description: `See all the members of the ${domain} community.`,
+    title: `two very gay wives in love own this now u know`,
+    description: `nine plus ten`,
   }
 }
 
@@ -40,7 +40,7 @@ export default async function CommunityPage({ params }: Props) {
           community
         </h1>
         <p className="max-w-[500px] text-lg text-muted-foreground sm:text-xl">
-          Want to join the wives of the {domain} community? sorry u cant...
+          Want to join the wives of the {domain} community? sorry u cant... we fucking HATE polyamory
         </p>
 
         <LoadMore
